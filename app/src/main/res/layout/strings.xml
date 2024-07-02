@@ -1,0 +1,47 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string android:name="app_name">Quiz App</string>
+    <string-array android:name="questions">
+        <item>Укажите верное определение понятия "лирический герой".</item>
+        <item>Укажите, какой троп использовал поэт в этом стихотворении. Лес проснулся, Весь проснулся, веткой каждой, Каждой птицей встрепенулся…</item>
+        <item>Назовите адресата любовной лирики А.А. Фета.</item>
+        <item>Укажите, что объединяет стихотворения А.А.Фета "Одним толчком согнать ладью живую…" и "Ярким солнцем в лесу пламенеет костёр…"</item>
+        <item>Какова, роль пейзажа в лирике А.А. Фета?</item>
+    </string-array>
+    <string-array android:name="options1">
+        <item>образ героя в произведении, переживания, мысли и чувства которого в нем отражены</item>
+        <item>изображение отвлеченного понятия или явления через конкретный образ</item>
+        <item>лицо, выступившее в печати без указания своего имени или своего псевдонима</item>
+        <item>странствующий поэт-импровизатор, творец героического эпоса пел в сопровождении музыкального инструмента</item>
+    </string-array>
+    <string-array android:name="options2">
+        <item>метафора</item>
+        <item>олицетворение</item>
+        <item>сравнение</item>
+        <item>антитеза</item>
+    </string-array>
+    <string-array android:name="options3">
+        <item>Е.А.Денисьева</item>
+        <item>А.П.Керн</item>
+        <item>Амалия Крюденер</item>
+        <item>Мария Лазич</item>
+    </string-array>
+    <string-array android:name="options4">
+        <item>стихотворный размер</item>
+        <item>образ природы</item>
+        <item>философская идея единства человека и природы</item>
+        <item>тема поэтического вдохновения</item>
+    </string-array>
+    <string-array android:name="options5">
+        <item>является фоном происходящих событий</item>
+        <item>выполняет исключительно эстетическую функцию</item>
+        <item>является средством выражения Философских обобщений поэта</item>
+        <item>дополняет социальную характеристику</item>
+    </string-array>
+    <integer-array android:name="correct_answers">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+    </integer-array>
+</resources>
